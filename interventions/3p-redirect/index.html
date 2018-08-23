@@ -4,7 +4,7 @@
   https://cs.chromium.org/chromium/src/third_party/WebKit/LayoutTests/http/tests/security/frameNavigation/xss-DENIED-top-navigation-without-user-gesture.html
   -->
 
-<html>
+<!-- <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
@@ -35,4 +35,18 @@
     <iframe height="64px" src="other-iframe-that-performs-top-navigation-without-user-gesture.html"></iframe>
     <iframe height="64px" id="iframe3"></iframe>
   </body>
+</html>
+ -->
+
+ <html>
+<head>
+    <title>JavaScript page refresh example</title>
+    <script type="text/JavaScript">
+        function timeRefresh(timeoutPeriod) {
+            setTimeout("location.reload(true);", timeoutPeriod);
+        }
+    </script>
+</head>
+<iframe marginwidth="0" marginheight="0" width="240" height="80" scrolling="no" frameborder=0 src="http://www.staradvertiser.com/tag/2018-hurricane-season/">
+</iframe>
 </html>
